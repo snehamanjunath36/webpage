@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+*{
+margin:0;
+padding:0;
+}
+.sidebar{
+    background-color: aqua;
+    width: 10vw;
+    font-family: 'Lato', sans-serif;
+
+    height: 100vh;
+}
+.sidebar nav{
+    padding:25px;
+    font-size: 30px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 12px;
+
+}
+.main{
+    background-color: blueviolet;
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infodiv{
+    background-color: aliceblue;
+    width: 80vw;
+    height: 40vh;
+    margin: 71px auto;
+}
